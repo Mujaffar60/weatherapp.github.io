@@ -16,7 +16,7 @@ async function checkWeather(city) {
 
     try{
 
-    const apiKey = "91d673dff3cb725b0c4da112632d2379"; // Replace with your API key
+    const apiKey = "91d673dff3cb725b0c4da112632d2379"; 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     const weather_data = await fetch(`${apiUrl}`).then(response => response.json());
