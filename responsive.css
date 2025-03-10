@@ -1,5 +1,9 @@
 @media only screen and (max-width: 600px) {
 
+    body{
+        height: 92vh;
+    }
+
     .weather-container{
         width:82%;
     }
